@@ -50,7 +50,7 @@ namespace UnityFBXExporter
 			folderPath = folderPath.Replace('\\', '/');
 			textureFolderName = textureFolderName.Replace('\\', '/');
 
-			folderPath = Application.dataPath + folderPath;
+			folderPath = Application.persistentDataPath + folderPath;
 
 			if(System.IO.Directory.Exists(folderPath) == false)
 			{
