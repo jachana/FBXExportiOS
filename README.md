@@ -12,7 +12,7 @@
 * Inside Xcode make sure your have your signature fixed Signature sin the Signing capabilities tab
 * In the Info tab Add a key for "Application supports iTunes file sharing" and change the value to Yes ( this has to be done only once per Xcode Project)
 * Build the Xcode Project
-
+* On the application press the UI button so save the fbx, you will notice the cube stops moving for a moment
 ### Finder
 * To find the fbx file
   * Go to finder
